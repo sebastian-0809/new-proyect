@@ -281,3 +281,57 @@ header{
 }
 
 /*End Sobre Nosotros*/
+
+/*Servicios*/
+
+.card__service img{
+    width: 50px;
+}
+
+.card__service i{
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: var(--color_text-primary);
+}
+
+/*End Servicios*/
+
+/*Proyectos*/
+
+.container__proyect{
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
+}
+
+.container__card-proyect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__proyect {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #fff;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.card__proyect h2, .card__proyect p {
+    margin: 0;
+}
+
+.card__proyect:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
+
+/*End Proyectos*/
+
+
