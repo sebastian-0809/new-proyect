@@ -13,7 +13,7 @@
     --color_text-secundary:#101E2C;
     --color_text-tertiary:#A8E5F1;
     --main_color-primary:green;
-    --main_color-secundari:#1023C3;
+    --main_color-secundari:#4a59e3;
     --background-color:#99FFFD;
     --lowText_font_size:16px;
     --text_size_title:40px;
@@ -50,7 +50,7 @@ header{
 }
 
 .logo img{
-    width: 150px;
+    width: 200px;
 }
 
 .menu{
@@ -172,6 +172,8 @@ header{
 .image_cover img{
     width: 550px;
     margin-left: 180px;
+    border-radius: 15px;
+
 }
 
 /*End Portada Inicio*/
@@ -244,7 +246,7 @@ header{
 
 .container__about{
     padding: 100px 0px;
-    background: var(--background-color);
+    background: #44e08f;
     margin-top: 100px;
 }
 
@@ -387,7 +389,7 @@ header{
 }
 
 #cartah{
-    background-color: #7c7c7c;
+    background-color: #1870d4;
 }
 
 .yo{
@@ -424,16 +426,16 @@ header{
 
 .equipo{
     margin-top: -8px;
-    color: var(--color_text-tertiary);
+    color: var(--color_text-primary);
 }
 .name{
 
-   color: #fafbfe;
+   color: var(--main_color-secundari);
 }
 
 .presentacion{
 
-    background-color:var(--main_color-secondary);
+    background-color:var(--color_text-secundary);
     width: 400px;
     height: 500px;
     margin-left: 400px;
@@ -446,7 +448,7 @@ header{
     width: 280px;
     height: 280px;
     border-radius: 1000px;
-    border: 12px solid #b9b8b8;}
+    border: 12px solid black;}
 
 
 
@@ -456,18 +458,18 @@ header{
 .info h2{
 
     font-size: 30px;
-    color: white;
+    color: rgb(107, 201, 29);
 
 }
 .info p{
-    color: #a8a1a8;
+    color: var(--color_text-primary);
     margin-top: -10px;
 }
 
 .rsociales{
     margin-top: 30px;
    
-    border-top: 2px solid #a8a1a8;
+    border-top: 2px solid black;
     display: flex;
     justify-content:center;
     gap: 30px;
@@ -480,7 +482,7 @@ header{
 
 .container__proyect{
     padding: 100px 0px;
-    background: var(--background-color);
+    background: var(--color_text-primary);
     margin-top: 100px;
 }
 
@@ -518,12 +520,12 @@ header{
 .rsociales i{
     font-size: 30px;
     margin-top: 15px;
-    color: var(--color_text-secundary);
+    color: var(--color_text-primary);
     
     border-radius: 50px;
 }
 #equip{
-    background-color: #ffffff;
+    background-color: rgb(139, 139, 201);
     margin-top: -10px;
 }
 
@@ -553,7 +555,6 @@ header{
 
 .contacta_nosotros{
     display: flex;
-    margin-left: 20px;
     margin-top: 30px;
     justify-content:space-around;
 }
